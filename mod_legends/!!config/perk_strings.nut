@@ -2525,7 +2525,7 @@ Endless training in holding the line in a spear wall has made it a second nature
 [color=%passive%][u]Passive:[/u][/color]
 • [color=%skill%]Spearwall[/color] costs [color=%negative%]-50%[/color] less Fatigue.
 
-• [color=%skill%]Spearwall[/color] AP cost is reduced to [color=%negative%]3[/color].
+• [color=%skill%]Spearwall[/color] AP cost is reduced by [color=%negative%]1[/color].
 
 • [color=%skill%]Spearwall[/color] does [color=%positive%]+25%[/color] damage.
 ");
@@ -3826,7 +3826,9 @@ My sword is my best friend. It is my life. I must master it as I must master my 
 'You maggots may yet earn my respect'.
 
 [color=%passive%][u]Passive:[/u][/color]
-• Kills made by veteran mercenaries earn [color=%positive%]+100%[/color] shared XP for mercenaries who are level 11 or under.
+• Kills made by veteran mercenaries in the company earn [color=%positive%]+100%[/color] shared XP for mercenaries who are not yet veteran.
+
+• Veterans are level 12 and over. This character does not need to be in combat for the effect to work.
 ");
 
 ::Const.Strings.PerkDescription.LegendTacticalManeuvers <- ::Legends.tooltip(@"
